@@ -21,3 +21,21 @@ User Input --> GUI (PyQt6) --> LLM (via Ollama API)
        |                                |
        v                                v
    Displayed <-- Memory Manager (Tree + Priority Queue)
+```
+
+
+## 📸 Screenshots / Demo
+> *(Optional – Add images or GIFs here for a visual preview of the game in action)*
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/ai-dungeon-master.git
+cd ai-dungeon-master
+```
+
+## Install Dependencies
+
