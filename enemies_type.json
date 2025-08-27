@@ -1,0 +1,86 @@
+[
+  {
+    "type": "Fire Golem",
+    "template": {
+      "domain": "Fire golem is found in volcano, magam based biome, lava pools",
+      "powers": [
+        "throws fireballs",
+        "turns the ground into lava",
+        "creates fire walls",
+        "immune to heat",
+        "cannot be harmed by normal weapons (melee or ranged)"
+      ],
+      "weaknesses": ["ice attacks", "water spells", "wind magic"],
+      "personality": "Aggressive and attacks on sight, burns everything in its path.",
+      "goals": ["kill anything it sees"],
+      "threat_level": 10,
+      "death_behavior": "Explodes in a burst of flames, leaving behind a pool of lava.",
+      "hint": "Its body glows intensely — perhaps cold might work."
+    }
+  },
+  {
+    "type": "Skeleton Warrior",
+    "template": {
+      "domain": "Skeletion warriors are seen in abandoned bone-covered hallways with crumbling stone walls",
+      "powers": [
+        "uses a sword for close combat",
+        "carries a shield to block attacks",
+        "feels no pain when struck"
+      ],
+      "weaknesses": [
+        "can be harmed with any type of attack (melee, ranged, or magic)",
+        "easily destroyed by strong force or blunt damage"
+      ],
+      "personality": "Silent, determined attacker that usually fights in small groups of 3 to 6.",
+      "goals": ["loot adventurers' belongings", "protect the dungeon from intruders"],
+      "threat_level": 10,
+      "death_behavior": "Falls apart into bones and dust, leaving behind a rusty sword and shield.",
+      "hint": "They seem fragile — a solid strike may shatter them quickly."
+    }
+  },
+  {
+    "type": "Orc",
+    "template": {
+      "domain": "Orcs are spotted in, trees, grassy plains, grassy hills, plateaus",
+      "powers": [
+        "uses axes and clubs for melee combat",
+        "can throw spears or rocks at range",
+        "strong and resilient to physical attacks",
+        "can overpower weaker opponents with brute force"
+      ],
+      "weaknesses": [
+        "vulnerable to fire and magic attacks",
+        "not very intelligent, can be tricked easily"
+      ],
+      "personality": "Brutal and aggressive, often fights in groups of 3.",
+      "goals": ["raid villages", "steal resources", "establish dominance over territories"],
+      "threat_level": 10,
+      "death_behavior": "Collapses with a loud thud, leaving behind weapons and armor.",
+      "hint": "They grunt and rush in — but don’t seem clever..."
+    }
+  },
+  {
+    "type": "Dragon",
+    "template": {
+      "domain": "Draogns are found in ancient throne chamber buried deep within the dungeon's heart, surrounded by treasure vaults and collapsed pillars",
+      "powers": [
+        "breathes fire or ice",
+        "can fly and swoop down on enemies",
+        "has tough scales that resist most attacks",
+        "resistant to magic",
+        "can roar to intimidate and subdue enemies",
+        "uses its tail to strike or sweep enemies away"
+      ],
+      "weaknesses": [
+        "only vulnerable part is the eye and underbelly",
+        "can be distracted by shiny objects",
+        "cannot pass through narrow or small spaces"
+      ],
+      "personality": "Proud and territorial, hoards treasures. Kills on sight and does not negotiate.",
+      "goals": ["protect its lair", "collect treasures", "establish dominance over the region"],
+      "threat_level": 10,
+      "death_behavior": "Collapses with a thunderous roar, leaving behind a pile of treasure and scales.",
+      "hint": "Its eyes track your movement — but its belly is less guarded."
+    }
+  }
+]
