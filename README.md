@@ -1,4 +1,4 @@
-# 🧙 AI Dungeon Master – Interactive Storytelling with Memory
+# 🧙 AI Dungeon Narrator – Interactive Storytelling with Memory
 
 An **AI-powered text adventure game** where the model acts as a Dungeon Master, narrating scenarios and presenting choices.  
 Unlike typical story generators, this system **remembers past events** using a custom memory system to keep the story consistent.
@@ -23,13 +23,8 @@ User Input --> GUI (PyQt6) --> LLM (via Ollama API)
    Displayed <-- Memory Manager (Tree + Priority Queue)
 ```
 
-
-## 📸 Screenshots / Demo
-> *(Optional – Add images or GIFs here for a visual preview of the game in action)*
-
----
-
 ## ⚙️ Installation & Setup
+
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -37,5 +32,15 @@ git clone https://github.com/your-username/ai-dungeon-master.git
 cd ai-dungeon-master
 ```
 
-## Install Dependencies
+### Install Dependencies
+```bash
+pip install pyqt6 re sys requests json
+```
 
+---
+## Requirements
+- Must have python 3.9-3.11 
+- Ollama for running mistral
+
+## How to run the code
+Just find the main.py file in the directory and run it. Make sure that all dependencies are installed.
